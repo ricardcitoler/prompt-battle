@@ -29,7 +29,7 @@ export function Navbar({ showAdminLink = false }: NavbarProps) {
       {showAdminLink && (
         <Link
           to="/admin"
-          className="absolute right-8 text-sm text-white/60 hover:text-white transition-colors"
+          className="absolute right-4 bottom-3 text-sm text-white/60 hover:text-white transition-colors"
         >
           Acceder como admin
         </Link>
